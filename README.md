@@ -1,4 +1,4 @@
-# WordFinderDeveloperChallenge
+# WordFinder Developer Challenge
 This code challenge was created by Cristian Sanabria as part of the interview process for Qu
 
 ## Problem description
@@ -35,4 +35,6 @@ in case we would want to change the approach(using a conditional enum) but the T
 * WordFinder.Console -> a console app that you can run to see the results.  the matrix and wordstream are harcoded for demo purposes so you need the change the code 
 in order to run it with different inputs
 * WordFinder.WPFUI -> a wpf app with UI to run the solution with different inputs easily
+
+![project dependency diagram](wf.JPG)
 
