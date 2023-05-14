@@ -5,10 +5,10 @@ This code challenge was implemented by Cristian Sanabria as part of the intervie
 the basic idea is to search for a list of words in a matrix vertically or horizontally only
 
 ### requirements
-- a wordfinder class should have a Find method that receives a list of words(wordtream) and a constructor with a list of words(matrix)
-- the wordfinder Find method should return the top 10 more repeated words found
+- a wordfinder class should have a Find method that receives a list of words(wordstream) and a constructor with a list of words(matrix)
+- the wordfinder Find method should return the top 10 most repeated words found
 - duplicates in wordstream should be ignored
-- the search should be for high performance for a big number of words to search
+- the search should be have high performance for a big number of words to search
 
 ### assumptions
 - the matrix should be a square(same width and height) matrix of max 64x64 size
@@ -19,12 +19,12 @@ the basic idea is to search for a list of words in a matrix vertically or horizo
 
 Since the problem indicates that we should look for words only from left to right and from top to bottom, a linear search algorithm would be enough to find the words
 in the rows or cols from the matrix.  this algorithm has a complexity of O(M * N * L * P) where P is number of words to search, NM size of matrix and L substring. this solution
-is the easiest to implement and understand but it is not so much efficient for a big matrix of a very long wordstream.
+is the easiest to implement and understand but it is not so much efficient for a big matrix or a very long wordstream.
 
 The excercise implies that we will receive a big wordstream then we need to optimize the solution for a higher performance.
 The Trie Compressed algorithm is an option that has a complexity of O(M * N * L + P * L) which is a better performance than linear search.  however the code complexity of 
-this algorithm is not so easy and also it is more suitable when we want to find words in diagonal in addition to horizontally and veritcally  however *we will choose this option
-based on the performance requirement.*
+this algorithm is not so easy and also it is more suitable when we want to find words in diagonal in addition to horizontally and veritcally,  however **we will choose this option
+based on the performance requirement.**
 
 ## Artifact/Project Description
 The Solution in this repo contains 4 projects:
