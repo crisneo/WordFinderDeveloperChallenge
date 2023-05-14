@@ -30,7 +30,7 @@ namespace WordFinder.Logic
             switch (_algorithm)
             {
                 case AlgorithmType.Trie:
-                    dictRes = SearchWordsUsingTrie(mat, wordstream.ToList()) ;
+                    dictRes = SearchWordsUsingTrie(mat, wordstream.ToList());
                     break;
                 case AlgorithmType.Linear:
                     dictRes = SearchWordsUsingLinearAlg(mat, wordstream.ToList());
@@ -94,7 +94,7 @@ namespace WordFinder.Logic
                 }
                 if (column.Contains(word))
                 {
-                    
+
                     if (findingsDict.ContainsKey(word))
                     {
                         findingsDict[word] = findingsDict[word] + 1;
@@ -223,7 +223,7 @@ namespace WordFinder.Logic
 
     }
 
-    public enum AlgorithmType 
+    public enum AlgorithmType
     {
         Trie,
         Linear
