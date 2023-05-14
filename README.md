@@ -4,7 +4,7 @@ This code challenge was implemented by Cristian Sanabria as part of the intervie
 ## Problem description
 the basic idea is to search for a list of words in a matrix vertically or horizontally only
 
-### requeriments
+### requirements
 - a wordfinder class should have a Find method that receives a list of words(wordtream) and a constructor with a list of words(matrix)
 - the wordfinder Find method should return the top 10 more repeated words found
 - duplicates in wordstream should be ignored
