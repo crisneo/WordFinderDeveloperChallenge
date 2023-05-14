@@ -36,5 +36,5 @@ in case we would want to change the approach(using a conditional enum) but the T
 in order to run it with different inputs
 * WordFinder.WPFUI -> a wpf app with UI to run the solution with different inputs easily
 
-![project dependency diagram](wf.JPG)
+![project dependency diagram](wf.jpg)
 
