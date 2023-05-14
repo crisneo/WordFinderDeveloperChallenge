@@ -1,0 +1,19 @@
+﻿<Window x:Class="WordFinder.WPFUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WordFinder.WPFUI"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Insert the word matrix" HorizontalAlignment="Left" Margin="60,33,0,0" VerticalAlignment="Top"/>
+        <Label Content="Insert words to search" HorizontalAlignment="Left" Margin="496,46,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.535,0.061"/>
+        <Button Content="Find Words" HorizontalAlignment="Left" Margin="344,335,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <TextBox x:Name="txtMatrix" HorizontalAlignment="Left" Margin="25,102,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="424" Height="207"/>
+        <Label Content="(words separated by comma)" HorizontalAlignment="Left" Margin="60,59,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtWordStream" HorizontalAlignment="Left" Margin="503,102,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="201" Height="207" Grid.Row="64"/>
+        <Label Content="(words separated by comma)" HorizontalAlignment="Left" Margin="496,67,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
