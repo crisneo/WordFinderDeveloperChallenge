@@ -1,5 +1,5 @@
 # WordFinder Developer Challenge
-This code challenge was created by Cristian Sanabria as part of the interview process for Qu
+This code challenge was implemented by Cristian Sanabria as part of the interview process for Qu
 
 ## Problem description
 the basic idea is to search for a list of words in a matrix vertically or horizontally only
@@ -29,7 +29,7 @@ based on the performance requirement.*
 ## Artifact/Project Description
 The Solution in this repo contains 4 projects:
 
-* WordFinder.Logic -> it contains the class WordFind and related logic who has the algorithm and code to search for the words in the matrix.  I've implemented the two algorithms in this class 
+* WordFinder.Logic -> it contains the class WordFinder and related logic. it has the algorithm and code to search for the words in the matrix.  I've implemented the two algorithms in this class 
 in case we would want to change the approach(using a conditional enum) but the Trie Compressed is the one used.
 * WordFinder.Tests -> Unit Tests project in which we can run/test different input cases and edge cases for the wordFinder class.( I added the basic ones)
 * WordFinder.Console -> a console app that you can run to see the results.  the matrix and wordstream are harcoded for demo purposes so you need the change the code 
